@@ -1,0 +1,29 @@
+{
+  "name": "uint8-concat",
+  "repository": "github:fabiospampinato/uint8-concat",
+  "description": "Concatenate mutiple Uint8Arrays super efficiently.",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "clean": "tsex clean",
+    "compile": "tsex compile",
+    "compile:watch": "tsex compile --watch",
+    "test": "tsex test",
+    "test:watch": "tsex test --watch",
+    "prepublishOnly": "tsex prepare"
+  },
+  "keywords": [
+    "uint8",
+    "concatenate",
+    "concat",
+    "fast"
+  ],
+  "devDependencies": {
+    "fava": "^0.1.1",
+    "tsex": "^2.1.0",
+    "typescript": "^4.9.5"
+  }
+}
