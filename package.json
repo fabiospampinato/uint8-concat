@@ -3,7 +3,7 @@
   "repository": "github:fabiospampinato/uint8-concat",
   "description": "Concatenate mutiple Uint8Arrays super efficiently.",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
